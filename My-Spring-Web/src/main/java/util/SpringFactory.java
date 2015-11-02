@@ -19,5 +19,4 @@ public class SpringFactory implements ApplicationContextAware {
 	public static Object getBeans(String id){
 		return applicationContext.getBean(id);
 	}
-
 }
